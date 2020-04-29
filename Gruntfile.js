@@ -203,7 +203,7 @@ module.exports = function(grunt) {
         stdout: true,
         verbosity: 'normal',
         maxCpuCount: 4,
-        version: 4.0,
+        inferMsbuildPath: true,
         buildParameters: {
           WarningLevel: 2,
           NoWarn: 1607
